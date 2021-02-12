@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+body {
+  background-color: lightgray;
+}
+
+#content {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+#canvas-holder {
+  border: 1px solid black;
+  background-color: white;
+}
+
+canvas {
+  display: block;
+}
+
+#specifications {
+  font-family: Roboto, sans-serif;
+  background-color: white;
+  width: 284px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  margin-top: 0pt;
+  margin-bottom: 8pt;
+}

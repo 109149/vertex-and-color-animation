@@ -1,0 +1,28 @@
+#content
+  h1 Animating vertices and colors
+
+  #canvas-holder
+    canvas#scene(width="300",height="300")
+
+  #specifications
+    p Colors:
+      br
+      select#colorTypeSelect
+        option(value="NoColor") No colors
+        option(value="OnePerFace") One color per face
+        option(value="ThreePerFace") Three colors per face
+        option(value="OnePerVertex") One color per vertex
+
+    p(style="margin-top:0px")
+      label Animate Colors
+        input#colorAnimationCheckbox(type="checkbox")
+    p(style="margin-top:20px")
+      label Animate Vertices
+        input#vertexAnimationCheckbox(type="checkbox")
+    p
+      button#resetVertices Reset Vertices
+    p(style="margin-top:20px")
+      label Show Wireframe
+        input#showWireframeCheckbox(type="checkbox")
+    p(style="margin-top: 20px")
+      b Use mouse to Rotate.
